@@ -2,6 +2,7 @@
 
 import { signIn } from "next-auth/react";
 import React, { FormEvent, useState } from "react";
+import Image from "next/image";
 
 const Login = () => {
   // State variables for storing the email and password
@@ -40,7 +41,11 @@ const Login = () => {
         }}
       />
       <div className="max-w-3xl w-full space-y-8 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white bg-opacity-10 rounded-lg p-8 shadow-[0_8px_30px_rgb(0,0,0,0.12)]">
-        <img className="mx-auto w-14 h-14" src="/Images/Logo.png" alt="Logo" />
+        <Image
+          className="mx-auto w-14 h-14"
+          src="/Images/Logo.png"
+          alt="Logo"
+        />
         <div className="flex">
           <div className="relative h-80 w-80">
             <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -50,7 +55,7 @@ const Login = () => {
                 transform="translate(100 100)"
               />
             </svg>
-            <img
+            <Image
               className="absolute w-1/3 top-0 bottom-0 right-0 m-auto"
               style={{ left: "-2.25rem" }}
               src="/Images/Ellipse 33.png"

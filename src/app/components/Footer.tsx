@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { IoChatbubble } from "react-icons/io5";
+import Image from "next/image";
 
 const Footer = () => {
   // State for controlling the visibility of the tooltip
@@ -32,7 +33,7 @@ const Footer = () => {
         )}
       </div>
 
-      <img className="h-8 w-auto" src="/Images/Logo.png" alt="Logo" />
+      <Image className="h-8 w-auto" src="/Images/Logo.png" alt="Logo" />
     </footer>
   );
 };

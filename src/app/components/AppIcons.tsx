@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const AppIcons = () => {
   // State for storing the applications
@@ -20,10 +21,11 @@ const AppIcons = () => {
     <div className="custom-scrollbar absolute bg-opacity-50 right-5 top-1/2 transform -translate-y-1/2 h-80 w-20 bg-white flex flex-col overflow-y-auto items-center rounded-3xl space-y-2">
       {/* Mapping over the applications and rendering an image for each one */}
       {apps.map((app: { icon: any; name: any }) => (
-        <img
+        <Image
           className="w-3/4 object-cover my-4"
           src={app.icon}
           key={app.name}
+          alt={app.name}
         />
       ))}
     </div>
