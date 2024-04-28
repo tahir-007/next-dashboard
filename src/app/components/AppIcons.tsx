@@ -26,6 +26,8 @@ const AppIcons = () => {
           src={app.icon}
           key={app.name}
           alt={app.name}
+          width={500}
+          height={500}
         />
       ))}
     </div>

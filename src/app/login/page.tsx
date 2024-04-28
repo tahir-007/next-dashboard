@@ -42,9 +42,11 @@ const Login = () => {
       />
       <div className="max-w-3xl w-full space-y-8 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white bg-opacity-10 rounded-lg p-8 shadow-[0_8px_30px_rgb(0,0,0,0.12)]">
         <Image
-          className="mx-auto w-14 h-14"
+          className="mx-auto"
           src="/Images/Logo.png"
           alt="Logo"
+          width={56}
+          height={56}
         />
         <div className="flex">
           <div className="relative h-80 w-80">
@@ -60,6 +62,8 @@ const Login = () => {
               style={{ left: "-2.25rem" }}
               src="/Images/Ellipse 33.png"
               alt="Left Image"
+              width={500}
+              height={500}
             />
           </div>
 

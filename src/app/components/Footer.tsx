@@ -33,7 +33,13 @@ const Footer = () => {
         )}
       </div>
 
-      <Image className="h-8 w-auto" src="/Images/Logo.png" alt="Logo" />
+      <Image
+        className="h-8 w-auto"
+        src="/Images/Logo.png"
+        alt="Logo"
+        width={32}
+        height={32}
+      />
     </footer>
   );
 };
