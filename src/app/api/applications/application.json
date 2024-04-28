@@ -1,0 +1,6 @@
+[
+  { "name": "Diary", "icon": "/Images/Diary.png" },
+  { "name": "Calendar", "icon": "/Images/Calender.png" },
+  { "name": "Google Chrome", "icon": "/Images/Google Chrome.png" },
+  { "name": "Recycle Bin", "icon": "/Images/Empty Bin.png" }
+]
